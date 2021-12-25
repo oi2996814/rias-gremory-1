@@ -17,7 +17,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const zerotwo =
-			"https://c.tenor.com/qqsjXNV6B-4AAAPo/darling-in.mp4";
+			"https://c.tenor.com/pEp19UneK7MAAAPo/rias-gremory-belly-dance.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: zerotwo },
@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `*_i think i have taken a liking to you. won't you be my darling 💋_*`,
+				caption: `*_yamete kudasai 🍒_*`,
 		    }
 		);
 	};
