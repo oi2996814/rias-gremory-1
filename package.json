@@ -1,31 +1,31 @@
 {
-    "name": "rias-gremory",
+    "name": "zero-two",
     "version": "3.0.0",
     "description": "A WhatsApp Bot With Rich Anime Features.",
-    "main": "dist/rias-gremory.js",
+    "main": "dist/zero-two.js",
     "scripts": {
         "build": "tsc -p .",
-        "start": "node dist/rias-gremory.js",
+        "start": "node dist/zero-two.js",
         "lint": "eslint \"src/**/*.ts\"",
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/well300/rias-gremory.git"
+        "url": "git+https://github.com/well300/zero-two.git"
     },
     "keywords": [
         "bot",
         "typescript",
         "whatsapp",
-        "risa"
+        "well300"
     ],
     "author": "Synthesized Infinity & well300",
     "license": "AGPL-3.0",
     "bugs": {
-    "url": "https://github.com/ShineiIchijo/Chitoge/issues"
+        "url": "https://github.com/ShineiIchijo/Chitoge/issues"
     },
-    "homepage": "https://github.com/well300/rias-gremory#readme",
+    "homepage": "https://github.com/well300/zero-two#readme",
     "devDependencies": {
         "@types/express": "^4.17.12",
         "@types/fs-extra": "^9.0.11",
