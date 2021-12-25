@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const zerotwo = 
-			"https://c.tenor.com/EfJtP1jCot4AAAPo/spider-man-no-way-home-spider-man.mp4";
+			"https://c.tenor.com/pEp19UneK7MAAAPo/rias-gremory-belly-dance.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: zerotwo },
@@ -28,8 +28,8 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `🪆𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! 𝐈'𝐦 *𝙸𝚌𝚑𝚒𝚐𝚘-𝙱𝚘𝚝𝚝𝚘* , 𝐞𝐧𝐣𝐨𝐲 𝐮𝐬𝐢𝐧𝐠 𝐦𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬..! 
-🎋 𝐇𝐞𝐫𝐞 𝐚𝐫𝐞 𝐭𝐡𝐞 𝐋𝐢𝐬𝐭𝐞𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 : -
+				caption: `🪆𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! 𝐈'𝐦 *ʀɪᴀꜱ-ɢʀᴇᴍᴏʀʏ*..! 
+🌈 𝐇𝐞𝐫𝐞 𝐚𝐫𝐞 𝐭𝐡𝐞 𝐋𝐢𝐬𝐭𝐞𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 : -
 
 🎊 𝐅𝐔𝐍 🎊
 
@@ -153,7 +153,7 @@ export default class Command extends BaseCommand {
 💻 sᴛᴀᴛᴜs
 💻 ᴜɴʙᴀɴ
  
-𓊈𒆜𝐈𝐜𝐡𝐢𝐠𝐨-𝐁𝐨𝐭𝐭𝐨𒆜𓊉`,
+𓊈🌈ʀɪᴀꜱ-ɢʀᴇᴍᴏʀʏ🌈𓊉`,
 			}
 		);
 	};
