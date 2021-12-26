@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			category: "general",
 			usage: `${client.config.prefix}zerotwo`,
 		        dm: true,
-                        aliases: ['risa','?1','300','menu1']
+                        aliases: ['rias','?1','300','menu1']
 		});
 	}
 
