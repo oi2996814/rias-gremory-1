@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const well = 
-			"https://c.tenor.com/NNh2K3pR63cAAAPo/rias-gremory-high-school-dx-d.mp4";
+			"https://c.tenor.com/cHLBDqMXnaEAAAPo/highschool-dxd-dxd.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: well },
