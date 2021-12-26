@@ -29,10 +29,10 @@ export default class Command extends BaseCommand {
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
 				caption: `🪆𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚!
-🍒ɪ'ᴍ ʀɪᴀꜱ-ɢʀᴇᴍᴏʀʏ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ-ʙᴏᴛ.
+🍒ɪ'ᴍ ʀɪᴀꜱ-ɢʀᴇᴍᴏʀʏ ʙᴏᴛ.
 ❄ᴍʏ ᴘʀᴇꜰɪx ɪꜱ - " ${this.client.config.prefix} "
 ───────────
-🌈 𝐇𝐞𝐫𝐞 𝐚𝐫𝐞 𝐭𝐡𝐞 𝐋𝐢𝐬𝐭𝐞𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 :
+- 𝐇𝐞𝐫𝐞 𝐚𝐫𝐞 𝐭𝐡𝐞 𝐋𝐢𝐬𝐭𝐞𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
 
 ━━❰•𝔑𝔰𝔣𝔴•❱━━
 
