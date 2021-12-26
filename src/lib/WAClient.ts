@@ -21,7 +21,7 @@ export default class WAClient extends Base {
 	assets = new Map<string, Buffer>();
 	constructor(public config: IConfig) {
 		super();
-		this.browserDescription = ["Zero Two","safari","3.0"];
+		this.browserDescription = ["well300","safari","3.0"];
 		this.version = [3, 3234, 9];
 		this.logger.level = "fatal";
 
@@ -167,7 +167,7 @@ export default class WAClient extends Base {
 
 	log = (text: string, error?: boolean): void => {
 		console.log(
-			chalk[error ? "red" : "green"]("[Zero-Two]"),
+			chalk[error ? "red" : "green"]("[well300]"),
 			chalk.blue(moment(Date.now() * 1000).format("DD/MM HH:mm:ss")),
 			chalk.yellowBright(text)
 		);
@@ -191,7 +191,7 @@ export default class WAClient extends Base {
 
 	getUser = async (jid: string): Promise<IUserModel> => {
 		let user = await this.DB.user.findOne({ jid });
-		if (!user)
+		if (!user) 
 			user = await new this.DB.user({
 				jid,
 			}).save();
