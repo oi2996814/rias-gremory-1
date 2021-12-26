@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
                     MessageType.image,
                     undefined,
                     undefined,
-                    `Anime meme 🌟\n`,
+                    `🍒 ᴡᴇʟʟ ꜰᴏʀᴇᴠᴇʀ.\n`,
                     undefined
                 ).catch((e) => {
                     console.log(`This error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`)
