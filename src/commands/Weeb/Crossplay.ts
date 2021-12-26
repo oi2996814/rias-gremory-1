@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
             description: `Will send you random crossplay img.`,
             aliases: ['cp'],
             category: 'weeb',
-            usage: `${client.config.prefix}crossplay`,
+            usage: `${client.config.prefix}crossplay`, 
             baseXp: 50
         })
     }
