@@ -21,9 +21,9 @@ export default class WAClient extends Base {
 	assets = new Map<string, Buffer>();
 	constructor(public config: IConfig) {
 		super();
-		this.browserDescription = ["well300-FOREVER","safari","3.0"];
+		this.browserDescription = ["Zero Two","safari","3.0"];
 		this.version = [3, 3234, 9];
-		this.logger.level = "fatal"; 
+		this.logger.level = "fatal";
 
 		this.on("chat-update", (update) => {
 			if (!update.messages) return void null;
@@ -167,7 +167,7 @@ export default class WAClient extends Base {
 
 	log = (text: string, error?: boolean): void => {
 		console.log(
-			chalk[error ? "red" : "green"]("[WELL300]"),
+			chalk[error ? "red" : "green"]("[Zero-Two]"),
 			chalk.blue(moment(Date.now() * 1000).format("DD/MM HH:mm:ss")),
 			chalk.yellowBright(text)
 		);
