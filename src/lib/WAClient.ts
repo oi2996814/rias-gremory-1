@@ -15,7 +15,7 @@ import {
 } from "../typings";
 import Utils from "./Utils";
 import DatabaseHandler from "../Handlers/DatabaseHandler";
-import axios from "axios";
+import axios from "axios"; 
 
 export default class WAClient extends Base {
 	assets = new Map<string, Buffer>();
